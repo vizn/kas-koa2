@@ -20,7 +20,7 @@ var all = {
   },
   //redis 配置
   redis: {
-    host: '123.57.64.130',
+    host: '192.168.21.108',
     port: 26379,
     password: 'vizn2016'
   },

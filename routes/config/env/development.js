@@ -5,7 +5,7 @@
 module.exports = {
   //开发环境mongodb配置
   mongo: {
-    uri: 'mongodb://123.57.64.130/KeepAccount',
+    uri: 'mongodb://192.168.31.182/KeepAccount',
     options: {
       user:'ka',          //开发环境用户名
       pass:'vizn2016'           //开发环境密码
