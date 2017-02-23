@@ -20,7 +20,7 @@ var all = {
   },
   //redis 配置
   redis: {
-    host: '123.57.64.130',
+    host: '192.168.31.182',
     port: 26379,
     password: 'vizn2016'
   },
@@ -49,18 +49,6 @@ var all = {
     clientSecret:"clientSecret",
     callbackURL:"/auth/qq/callback"
   },
-  //移动APP列表
-  apps:[
-    {
-      name:'React Native',
-      gitUrl:'http://github.com/jackhutu/jackblog-react-native-redux',
-      downloadUrl:{
-        android:'http://a.app.qq.com/o/simple.jsp?pkgname=top.jackhu.reactnative',
-        ios:''
-      },
-      qrcode:'http://upload.jackhu.top/qrcode/jackblog-react-native-qrcode.png'
-    }
-  ],
   //开启第三方登录
   snsLogins:['github','qq']
 };
