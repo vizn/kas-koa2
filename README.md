@@ -5,7 +5,7 @@
 ####开发工具：Atom + Robomongo + Medis
 ##项目结构
 KeepAccounts<br/>
-|-- kas-docs # 项目文档<br/>
+|-- [kas-docs](https://github.com/Vizn/KeepAccounts) # 项目文档<br/>
 |-- [kas-koa2](https://github.com/Vizn/kas-koa2) # 服务器端<br/>
 |-- [kas-react-native-redux](https://github.com/Vizn/kas-react-native-redux) # app客户端<br/>
 |-- [kas-react-redux](https://github.com/Vizn/kas-react-redux) # webapp客户端<br/>
