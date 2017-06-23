@@ -1,14 +1,14 @@
 'use strict';
 
-// 开发环境配置
+// 生产环境配置
 // ==================================
 module.exports = {
-  //开发环境mongodb配置
+  //生产环境mongodb配置
   mongo: {
-    uri: 'mongodb://192.168.31.182/KeepAccount',
+    uri: '',
     options: {
-      user:'ka',          //开发环境用户名
-      pass:'vizn2016'           //开发环境密码
+      user:'',          //生产环境用户名
+      pass:''           //生产环境密码
     }
   },
   //开发环境redis配置
