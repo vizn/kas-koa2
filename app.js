@@ -16,12 +16,13 @@ const RedisStore = require('koa-redis');
 const config = require('./routes/config/env');
 
 // 连接数据库.
-mongoose.connect(config.mongo.uri, config.mongo.options);
+var db = mongoose.createConnection();
+db.openUri(config.mongo.uri);
 const modelsPath = path.join(__dirname, 'routes/model');
 fs.readdirSync(modelsPath).forEach(function (file) {
 	if (/(.*)\.(js$|coffee$)/.test(file)) {
 		require(modelsPath + '/' + file);
-	}  
+	}
 });
 //mongoose promise 风格
 mongoose.Promise = require('bluebird');
